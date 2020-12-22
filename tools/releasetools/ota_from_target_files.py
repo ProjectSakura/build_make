@@ -823,8 +823,9 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("Target: {}".format(target_info.fingerprint))
 
   script.Print("*********************************************");
-  script.Print("$$$$$$$$$$$$ PROJECT SAKURA ROM $$$$$$$$$$$$$");
-  script.Print("$$$$$$$$$$ Based on LineageOS 18.0 $$$$$$$$$$");
+  script.Print("~~~~~~~~~~~~ PROJECT SAKURA ROM ~~~~~~~~~~~~~");
+  script.Print("~~~~~~~~~~~~     VERSION 4.R    ~~~~~~~~~~~~~");
+  script.Print("$$$$$$$$$$ Based on LineageOS 18.1 $$$$$$$$$$");
   script.Print("               By LordShenron                ");
   script.Print("*********************************************");
   androidver = target_info.GetBuildProp("ro.build.version.release")
