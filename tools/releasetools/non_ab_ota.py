@@ -217,8 +217,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # Build info
   script.Print("**********************************************");
   script.Print("             PROJECT SAKURA ROM               ");
-  script.Print("                 ALPHA BUILD                  ");
-  script.Print("           Based on LineageOS 21.0            ");
+  script.Print("                 Version 10.0                 ");
+  script.Print("           Based on LineageOS 22.1            ");
   script.Print("           By LordShenron & ReveRTX           ");
   script.Print("**********************************************");
   androidver = target_info.GetBuildProp("ro.build.version.release")
